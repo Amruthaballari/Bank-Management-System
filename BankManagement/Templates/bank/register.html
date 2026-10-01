@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SecureBank - Register</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+{% include 'navbar.html' %}
+
+<section class="auth-page">
+
+
+    <!-- register.jpg -->
+
+    <div class="auth-image">
+
+        <img src="{% static 'images/register.jpg' %}"
+             alt="Open Bank Account">
+
+        <p class="small-title">
+            JOIN SECUREBANK
+        </p>
+
+        <h1>
+            Open Your Account
+            <br>
+            Today
+        </h1>
+
+        <p>
+            Start your banking journey with us
+            and enjoy a secure and seamless experience.
+        </p>
+
+    </div>
+
+
+    <!-- REGISTER FORM -->
+
+    <div class="form-box">
+
+        <h2>
+            🏦 SecureBank
+        </h2>
+
+        <h1>
+            Create Your Account
+        </h1>
+
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="👤 Full Name"
+            >
+
+
+            <input
+                type="email"
+                placeholder="📧 Email address"
+            >
+
+
+            <input
+                type="password"
+                placeholder="🔒 Password"
+            >
+
+
+            <input
+                type="password"
+                placeholder="🔒 Confirm Password"
+            >
+
+
+            <button type="submit">
+
+                Register
+
+            </button>
+
+        </form>
+
+
+        <p>
+
+            Already have an account?
+
+            <a href="/login/">
+                Login
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>

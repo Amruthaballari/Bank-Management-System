@@ -1,0 +1,118 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SecureBank - Services</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+{% include 'navbar.html' %}
+
+<section class="page">
+
+    <div class="page-heading">
+
+        <p class="small-title">
+            OUR BANKING SERVICES
+        </p>
+
+        <h1>
+            Everything You Need
+            <br>
+            <span>In One Place</span>
+        </h1>
+
+        <p>
+            We provide a complete range of banking services
+            to make your financial journey easier and more secure.
+        </p>
+
+    </div>
+
+
+    <!-- services.jpg -->
+
+    <div class="services-image">
+
+        <img src="{% static 'images/services.jpg' %}"
+             alt="Banking Services">
+
+    </div>
+
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="icon">👤</div>
+
+            <h3>Customer Management</h3>
+
+            <p>
+                Add, update and manage customer information easily.
+            </p>
+
+            <a href="#">Manage Customers →</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">💳</div>
+
+            <h3>Account Management</h3>
+
+            <p>
+                Create and manage savings and current accounts.
+            </p>
+
+            <a href="#">Manage Accounts →</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">💰</div>
+
+            <h3>Transactions</h3>
+
+            <p>
+                Deposit, withdraw and transfer money securely.
+            </p>
+
+            <a href="#">View Transactions →</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">📊</div>
+
+            <h3>Reports</h3>
+
+            <p>
+                View account statements and transaction reports.
+            </p>
+
+            <a href="#">View Reports →</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>

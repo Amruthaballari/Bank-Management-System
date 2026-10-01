@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SecureBank - Contact</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+{% include 'navbar.html' %}
+
+<section class="contact-page">
+
+    <p class="small-title">
+        GET IN TOUCH
+    </p>
+
+    <h1>
+        Contact Us
+    </h1>
+
+    <p>
+        Have questions? We're here to help!
+        Reach out to us and we'll get back to you soon.
+    </p>
+
+
+    <!-- contact.jpg -->
+
+    <div class="contact-image">
+
+        <img src="{% static 'images/contact.jpg' %}"
+             alt="Contact SecureBank">
+
+    </div>
+
+
+    <div class="contact-info">
+
+        <div>
+
+            <h3>📧 Email</h3>
+
+            <p>
+                support@securebank.com
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>📞 Phone</h3>
+
+            <p>
+                +91 98765 43210
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>📍 Address</h3>
+
+            <p>
+                Bangalore, India
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>

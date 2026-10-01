@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SecureBank - Home</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+{% include 'navbar.html' %}
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            WELCOME TO SECUREBANK
+        </p>
+
+        <h1>
+            Banking Made
+            <br>
+            <span>Simple & Secure</span>
+        </h1>
+
+        <p class="description">
+            Manage your accounts, transactions and finances
+            securely from one simple platform.
+        </p>
+
+        <div class="buttons">
+
+            <a href="/register/" class="primary-button">
+                Open Account →
+            </a>
+
+            <a href="/services/" class="secondary-button">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+
+    
+    <div class="home-image">
+
+        <img src="{% static 'images/bank.jpg' %}"
+             alt="Bank Building">
+
+    </div>
+
+</section>
+
+
+<section class="stats">
+
+    <div>
+        <h2>10K+</h2>
+        <p>Customers</p>
+    </div>
+
+    <div>
+        <h2>25K+</h2>
+        <p>Accounts</p>
+    </div>
+
+    <div>
+        <h2>50K+</h2>
+        <p>Transactions</p>
+    </div>
+
+</section>
+
+</body>
+
+</html>

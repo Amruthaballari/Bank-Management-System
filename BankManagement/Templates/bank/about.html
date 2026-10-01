@@ -1,0 +1,80 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SecureBank - About</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+{% include 'navbar.html' %}
+
+<section class="about-page">
+
+    <div class="about-text">
+
+        <p class="small-title">
+            ABOUT OUR SYSTEM
+        </p>
+
+        <h1>
+            Simple Banking.
+            <br>
+            <span>Powerful Management.</span>
+        </h1>
+
+        <p>
+            SecureBank is a Django-based bank management
+            system designed to simplify banking operations.
+        </p>
+
+        <p>
+            It allows administrators to manage customers,
+            accounts and transactions from one platform.
+        </p>
+
+    </div>
+
+
+    
+
+    <div class="about-image">
+
+        <img src="{% static 'images/about.jpg' %}"
+             alt="About SecureBank">
+
+    </div>
+
+</section>
+
+
+<section class="stats">
+
+    <div>
+        <h2>10K+</h2>
+        <p>Customers</p>
+    </div>
+
+    <div>
+        <h2>25K+</h2>
+        <p>Accounts</p>
+    </div>
+
+    <div>
+        <h2>50K+</h2>
+        <p>Transactions</p>
+    </div>
+
+</section>
+
+</body>
+
+</html>
+</html>

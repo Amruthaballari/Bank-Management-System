@@ -1,0 +1,303 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SecureBank</title>
+
+    <link rel="stylesheet"
+          href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+    
+    {% include 'navbar.html' %}
+
+
+    
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">
+                WELCOME TO SECUREBANK
+            </p>
+
+            <h1>
+                Manage Your Money
+                <span>Securely & Easily</span>
+            </h1>
+
+            <p class="description">
+
+                A simple and secure bank management
+                system for managing customers,
+                accounts and transactions.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#" class="primary-btn">
+                    Open Account
+                </a>
+
+                <a href="#services" class="secondary-btn">
+                    Explore Services
+                </a>
+
+            </div>
+
+        </div>
+
+
+       
+
+        <div class="bank-card">
+
+            <div class="card-top">
+
+                <strong>SECUREBANK</strong>
+
+                <span>💳</span>
+
+            </div>
+
+            <p class="balance-title">
+                Available Balance
+            </p>
+
+            <h2>
+                ₹1,25,000
+            </h2>
+
+            <p class="account-number">
+                **** **** **** 4582
+            </p>
+
+            <div class="card-bottom">
+
+                <span>ACCOUNT HOLDER</span>
+
+                <span>VALID</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+
+    <section class="services" id="services">
+
+        <div class="section-heading">
+
+            <p>OUR SERVICES</p>
+
+            <h2>
+                Everything You Need
+                <span>In One Place</span>
+            </h2>
+
+        </div>
+
+
+        <div class="service-container">
+
+
+            <div class="service-card">
+
+                <div class="icon">
+                    👤
+                </div>
+
+                <h3>
+                    Customer Management
+                </h3>
+
+                <p>
+                    Add, update and manage
+                    customer information easily.
+                </p>
+
+                <a href="#">
+                    Manage Customers →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="icon">
+                    💳
+                </div>
+
+                <h3>
+                    Account Management
+                </h3>
+
+                <p>
+                    Create and manage savings
+                    and current accounts.
+                </p>
+
+                <a href="#">
+                    Manage Accounts →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="icon">
+                    💰
+                </div>
+
+                <h3>
+                    Transactions
+                </h3>
+
+                <p>
+                    Deposit, withdraw and transfer
+                    money securely.
+                </p>
+
+                <a href="#">
+                    View Transactions →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                <h3>
+                    Reports
+                </h3>
+
+                <p>
+                    View account statements and
+                    transaction reports.
+                </p>
+
+                <a href="#">
+                    View Reports →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+
+    <section class="about" id="about">
+
+        <div>
+
+            <p class="welcome">
+                ABOUT OUR SYSTEM
+            </p>
+
+            <h2>
+                Simple Banking.
+                <span>Powerful Management.</span>
+            </h2>
+
+            <p>
+                SecureBank is a Django-based bank
+                management system designed to simplify
+                banking operations.
+
+                It allows administrators to manage
+                customers, accounts and transactions
+                from one platform.
+            </p>
+
+        </div>
+
+
+        <div class="statistics">
+
+            <div>
+
+                <h3>10K+</h3>
+
+                <p>Customers</p>
+
+            </div>
+
+            <div>
+
+                <h3>25K+</h3>
+
+                <p>Accounts</p>
+
+            </div>
+
+            <div>
+
+                <h3>50K+</h3>
+
+                <p>Transactions</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+
+    <section class="contact" id="contact">
+
+        <h2>
+            Ready to Manage Your Bank?
+        </h2>
+
+        <p>
+            Start managing customers, accounts
+            and transactions with SecureBank.
+        </p>
+
+        <a href="#" class="primary-btn">
+            Get Started
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 SecureBank
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
